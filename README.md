@@ -7,19 +7,19 @@
 ## 🚀 About Me
 
 I am a security-focused developer passionate about **Cloud Security and Cyber Security**.
-I build applications with a **security-first approach**, focusing on identifying vulnerabilities, securing systems, and implementing best practices.
+I build applications with a **security-first approach**, focusing on identifying vulnerabilities, testing real-world attack scenarios, and implementing secure system design.
 
-I am actively developing skills in **AWS security, web security, and system-level protection** to design secure and resilient architectures.
+I am actively developing expertise in **AWS security, web application security, and threat-aware architecture** to build resilient and secure systems.
 
 ---
 
 ## 🛡️ Core Expertise
 
 * Cloud Security (AWS IAM, EC2, S3)
-* Cyber Security Fundamentals
 * Web Application Security (OWASP Top 10)
 * Secure Coding & Input Validation
-* Basic Vulnerability Assessment & Testing
+* Vulnerability Assessment & Testing
+* Threat-Aware System Design
 
 ---
 
@@ -38,23 +38,28 @@ Python, SQL, MySQL
 
 ## 🔥 Key Project
 
-### 🧪 PyShala – Secure Python Learning Platform
+### 🧪 PyShala – Secure Python Execution Platform
 
-An interactive coding platform developed with a focus on **secure execution and user safety**.
+An interactive platform designed to safely execute user-submitted Python code using **secure execution and isolation techniques**.
 
 **Key Highlights:**
 
-* Sandbox-based code execution environment
-* Input validation to reduce security risks
+* Sandbox-based execution environment for untrusted code
+* Input validation and sanitization to mitigate SQL Injection and XSS
+* Protection against malicious scripts and unauthorized system access
 * Structured test-case validation system
 * Modular architecture using YAML
 
-**Security Enhancements (In Progress):**
+---
 
-* Role-Based Access Control (RBAC)
-* Secure Authentication (JWT/OAuth)
-* Logging & Monitoring for threat detection
-* Secure cloud deployment (AWS)
+## ⚠️ Threat Model
+
+The system is designed considering real-world threats such as:
+
+* Malicious code execution
+* Unauthorized file/system access
+* Infinite loop / resource exhaustion (DoS)
+* Injection-based attacks (SQL Injection, XSS)
 
 ---
 
@@ -62,18 +67,18 @@ An interactive coding platform developed with a focus on **secure execution and 
 
 I actively practice:
 
-* Identifying common web vulnerabilities
-* Testing authentication & authorization flaws
-* Basic penetration testing scenarios
-* Writing secure and clean code
+* Testing applications against SQL Injection and XSS
+* Simulating DoS and code execution attacks
+* Identifying authentication & authorization flaws
+* Writing secure and maintainable code
 
 ---
 
 ## 📚 Currently Learning
 
 * AWS Cloud Security
-* Network Security Fundamentals
 * Threat Modeling & Risk Analysis
+* Secure Cloud Architecture
 
 ---
 
@@ -84,4 +89,4 @@ I actively practice:
 
 ---
 
-⭐ Focused on building a career in Cloud & Cyber Security
+🚀 Building systems that are **secure by design, not as an afterthought**
