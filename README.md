@@ -85,7 +85,7 @@ I actively practice:
 ## 📫 Connect With Me
 
 📧 [halbeadi@zohomail.com](mailto:halbeadi@zohomail.com)
-🔗 [LinkedIn](https://www.linkedin.com/in/aditya-halbe/)
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/aditya-halbe/)
 
 ---
 
