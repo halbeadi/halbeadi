@@ -1,92 +1,75 @@
-# 👋 Hi, I'm Aditya Halbe
+# Hi, I'm Aditya Halbe 👋
 
-🔐 **Cloud & Cyber Security Enthusiast | AWS | Python | Secure Systems**
+DevSecOps & Cloud Security Engineer — I build and secure 
+production systems on AWS.
 
----
-
-## 🚀 About Me
-
-I am a security-focused developer passionate about **Cloud Security and Cyber Security**.
-I build applications with a **security-first approach**, focusing on identifying vulnerabilities, testing real-world attack scenarios, and implementing secure system design.
-
-I am actively developing expertise in **AWS security, web application security, and threat-aware architecture** to build resilient and secure systems.
+🌐 pyshala.in | 📧 halbeadi@gmail.com
+🔗 linkedin.com/in/aditya-halbe
 
 ---
 
-## 🛡️ Core Expertise
+## 🛡️ Security Projects
 
-* Cloud Security (AWS IAM, EC2, S3)
-* Web Application Security (OWASP Top 10)
-* Secure Coding & Input Validation
-* Vulnerability Assessment & Testing
-* Threat-Aware System Design
+### 🔐 Pyshala — Secure Python Learning Platform
+Live Django platform on AWS EC2 with full DevSecOps pipeline.
+- Hardened Docker image (non-root user, slim base) — eliminated 
+  2 HIGH Django CVEs via Trivy scanning
+- Nginx security headers (Grade A), Fail2Ban, rate limiting, 
+  CloudTrail logging
+- Bandit SAST + Trivy container scan in GitHub Actions CI/CD
 
----
-
-## 🧠 Technical Skills
-
-**☁️ Cloud & Tools:**
-AWS (IAM, EC2, S3), Linux, Git, GitHub
-
-**🔐 Security:**
-SQL Injection, XSS, Authentication & Authorization Flaws, Secure API Design
-
-**💻 Programming:**
-Python, SQL, MySQL
+🔗 pyshala.in | github.com/halbeadi/pyshala
 
 ---
 
-## 🔥 Key Project
+### ☁️ Terraform AWS Infrastructure + tfsec
+IaC for Pyshala AWS infrastructure with security scanning.
+- Found 3 CRITICAL misconfigurations via tfsec
+- Fixed S3 encryption, access logging, and security group issues
+- tfsec integrated into GitHub Actions CI/CD
 
-### 🧪 PyShala – Secure Python Execution Platform
-
-An interactive platform designed to safely execute user-submitted Python code using **secure execution and isolation techniques**.
-
-**Key Highlights:**
-
-* Sandbox-based execution environment for untrusted code
-* Input validation and sanitization to mitigate SQL Injection and XSS
-* Protection against malicious scripts and unauthorized system access
-* Structured test-case validation system
-* Modular architecture using YAML
+🔗 github.com/halbeadi/terraform-pyshala
 
 ---
 
-## ⚠️ Threat Model
+### 🔍 AWS Security Auditor
+Python/Boto3 tool to detect AWS misconfigurations.
+- Detected real HIGH severity finding on live EC2 (public SSH 
+  0.0.0.0/0) and remediated it
+- Audits IAM, S3, EC2, and CloudTrail
 
-The system is designed considering real-world threats such as:
-
-* Malicious code execution
-* Unauthorized file/system access
-* Infinite loop / resource exhaustion (DoS)
-* Injection-based attacks (SQL Injection, XSS)
-
----
-
-## 🧪 Security Practice
-
-I actively practice:
-
-* Testing applications against SQL Injection and XSS
-* Simulating DoS and code execution attacks
-* Identifying authentication & authorization flaws
-* Writing secure and maintainable code
+🔗 github.com/halbeadi/aws-auditor
 
 ---
 
-## 📚 Currently Learning
+### 🕷️ Web Vulnerability Scanner
+Python CLI tool for web application security testing.
+- Detects SQLi, XSS, missing headers, sensitive file exposure
+- Found 23 vulnerabilities (14 HIGH) during testing
+- Automated HTML report generation
 
-* AWS Cloud Security
-* Threat Modeling & Risk Analysis
-* Secure Cloud Architecture
-
----
-
-## 📫 Connect With Me
-
-📧 [halbeadi@zohomail.com](mailto:halbeadi@zohomail.com)
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/aditya-halbe/)
+🔗 github.com/halbeadi/web-vuln-scanner
 
 ---
 
-🚀 Building systems that are **secure by design, not as an afterthought**
+## 🧰 Tech Stack
+
+**Cloud:** AWS (EC2, S3, IAM, VPC, CloudTrail, GuardDuty)  
+**IaC:** Terraform, tfsec  
+**DevSecOps:** GitHub Actions, Bandit, Trivy, OWASP ZAP  
+**Security:** Burp Suite, Nmap, DVWA, OWASP Top 10  
+**Languages:** Python, Bash  
+**Stack:** Django, Gunicorn, Nginx, PostgreSQL, Docker  
+
+---
+
+## 📜 Certifications
+
+- CEH — EC-Council (Renewal in Progress)
+
+---
+
+## 📫 Connect
+
+🔗 [LinkedIn](https://linkedin.com/in/aditya-halbe) | 
+📧 halbeadi@gmail.com
