@@ -65,8 +65,6 @@ Python CLI tool for web application security testing.
 ## 📜 Certifications
 
 - CEH — EC-Council (Renewal in Progress)
-- AZ-104 Microsoft Azure Administrator — In Progress
-- AZ-500 Microsoft Azure Security Engineer — In Progress
 
 ---
 
